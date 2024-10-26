@@ -1,0 +1,87 @@
+
+body {
+  font-family: Space Grotesk;
+
+}
+
+
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(185, 255, 102, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+  } 
+.btn1{
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 10px;
+}
+.hero{
+    align-content: center;
+}
+.head-text{
+    padding-bottom: 30px;
+}
+.left-p-text{
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+.btn2{
+background-color: #000;
+color: #fff;
+border-radius: 10px;
+padding: 15px;}
+
+.right-img{
+    padding-left: 30px;
+}
+.logos{
+    padding: 70px 0px;
+}
+.upper-text{
+    /* width: 100%; */
+    display: flex;
+    gap: 20px;
+}
+.serv-htxt{
+    text-align: center;
+    background-color: #b9ff66;
+    width: 15%;
+    border-radius: 5px;
+}
+
+
+
+
+@media (min-width: 1200px) and (max-width:1440px) {
+}
+
+
+@media (min-width: 992px) and (max-width:1024px)  {
+}
+
+
+@media (min-width:768px) and (max-width:990px){
+    .upper-text{
+flex-direction: column;
+    }
+    .serv-htxt{
+        width: 20%;
+}
+}
+
+
+@media only screen and (max-width: 600px) {
+    .left-cont{
+        padding-left: 30px;
+    }
+    .right-img{
+        width: 100%;
+        padding-top: 30px;
+        padding-left: 0px;
+    }
+    .upper-text{
+        flex-direction: column;
+            }
+            .serv-htxt{
+                width: 30%;
+        }
+}
