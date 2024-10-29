@@ -183,6 +183,75 @@ background-color: #191a23;
         padding-right: 20px;
     }
 
+    .accordion-item:first-of-type>.accordion-header .accordion-button
+    {
+        border: 1px solid #000;
+        border-radius: 20px;
+        border-bottom: 4px solid #000;
+        padding:30px;
+    
+    }
+
+.accordion-item:last-of-type>.accordion-header .accordion-button.collapsed{
+    border: 1px solid #000;
+    border-radius: 20px;
+    border-bottom: 4px solid #000;
+    padding: 30px;
+}
+.accordion-button{
+    border: 1px solid #000;
+    border-radius: 20px;
+    border-bottom: 4px solid #000; 
+    padding: 30px;
+}
+.accordion-button{
+    box-shadow: none;
+}
+.accordion-button:not(.collapsed)
+{
+    border-radius: 20px;
+    border: 1px solid #000;
+    background: #fff;
+    color: #000;
+    padding: 30px;
+    border-bottom: 4px solid #000;
+}
+  .accordian{
+    box-shadow: none;
+  }  
+  .accordion-button:hover {
+    box-shadow: none;
+  }
+  .accordion-item:last-of-type>.accordion-header .accordion-button.collapsed {
+    box-shadow: none;
+  }
+  .accordion-item:first-of-type>.accordion-header .accordion-button{
+    box-shadow: none;
+  }
+  .accordion-button:not(.collapsed){
+    box-shadow: none;
+  }
+
+
+    .accordion-button:not(.collapsed)::after {
+        background-image: url(/assets/images/minus-icon.png);
+    }
+    .accordion-button::after {
+        background-image: url(/assets/images/Plus-icon.png);}
+
+
+
+        .team-text{
+            display: flex;
+            gap: 20px;
+            padding-top: 140px;
+            padding-bottom: 50px;
+        }
+        .team-htxt{
+            background-color: #b9ff66;
+            border-radius: 7px;    }
+
+            
 
 @media (min-width: 1200px) and (max-width:1440px) {
 }
