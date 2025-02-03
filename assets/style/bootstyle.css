@@ -239,6 +239,41 @@ background-color: #191a23;
             background-color: #b9ff66;
             border-radius: 7px;    }
 
+            .team-first{
+                padding-bottom: 20px;
+            }
+        
+            .team-second{
+                padding-top: 20px;
+                border-top: 1px solid #818181;
+                text-align: left;
+
+            }
+            .team{
+                border: 1px solid #000;
+                border-bottom: 4px solid #000;
+                border-radius: 20px;
+                padding: 30px;
+            }
+
+            .testimon-text{
+                display: flex;
+                gap: 20px;
+                padding-top: 140px;
+                padding-bottom: 50px;
+            }
+            .testimon-htxt{
+                background-color: #b9ff66;
+                border-radius: 7px;    }
+    
+                .btn4{
+                    background-color: #000;
+                    color: #fff;
+                    border-radius: 10px;
+                    padding: 15px;
+                    width: 200px;
+                }
+                
             
 
 @media (min-width: 1200px) and (max-width:1440px) {
