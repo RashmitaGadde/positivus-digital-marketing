@@ -273,6 +273,86 @@ background-color: #191a23;
                     padding: 15px;
                     width: 200px;
                 }
+
+  .testimon{
+    background-color: #191a23;
+     border-radius: 20px;
+     padding: 30px;
+     }
+
+     .testi-one{
+        border-right: 1px solid #818181;
+        padding:20px;
+    }
+    .testi-two{
+        border-right: 1px solid #818181;
+        padding: 20px;
+    }
+    .testi-three{
+        padding: 20px;
+    }
+    .testi-p{
+        color: #fff;
+    }
+    .wh-txt{
+        color: #fff;
+    }
+    
+.slider-img{
+        display: flex;
+        justify-content: center;
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    .contact-text{
+        display: flex;
+        gap: 20px;
+        padding-top: 140px;
+        padding-bottom: 50px;
+    }
+    .contact-htxt{
+        background-color: #b9ff66;
+        border-radius: 7px;    }
+
+        .contact{
+            background-color: #898989;
+             border-radius: 20px;
+             padding: 50px;
+             height: 500px;
+             }
+             .contact-img{
+                position: absolute;
+                left: 380px;
+                bottom: -50px;
+                width: 80%;
+
+             }
+            .text-name {
+                border: 1px solid #000;
+                border-bottom: 4px solid #000;
+                border-radius: 10px;
+                padding: 10px;
+                margin-bottom: 20px;
+                width: 80%;
+             }
+             .text-mail{
+                border: 1px solid #000;
+                border-bottom: 4px solid #000;
+                border-radius: 10px;
+                padding: 10px;
+                margin-bottom: 20px;
+                width: 80%;
+             }
+             .text-msg{
+                border: 1px solid #000;
+                border-bottom: 4px solid #000;
+                border-radius: 10px;
+                padding: 10px;
+                width: 80%;
+             }
+        
+                
                 
             
 
@@ -281,8 +361,12 @@ background-color: #191a23;
 
 
 @media (min-width: 992px) and (max-width:1024px)  {
+    
     .right-image{
         width: 80%;
+    }
+    .contact-img{
+        display: none;
     }
 }
 
@@ -301,11 +385,28 @@ flex-direction: column;
     display: none;}
 
     .case-sec{
-        border-right: none;}
-        .case-secc{
-            border-right: none;}
+        border-right: none;
+    border-bottom: 1px solid #818181;}
 
-}
+        .case-secc{
+            border-right: none;
+        border-bottom:1px solid #818181;}
+
+            .testi-one{
+                border-right: none;
+                border-bottom: 1px solid #818181;}
+                .testi-two{
+                    border-right: none;
+                    border-bottom:1px solid #818181 ;
+                                }         
+                            
+                                .contact-img{
+                                    display: none;
+                                 }
+                            }
+
+  
+
 
 
 @media only screen and (max-width: 600px) {
@@ -337,8 +438,26 @@ flex-direction: column;
             display: none;}
 
 
+            .contact-img{
+                display: none;
+            }
+
+
             .case-sec{
-                border-right: none;}
+                border-right: none;
+            border-bottom: 1px solid #818181;}
+        
                 .case-secc{
-                    border-right: none;}
-}
+                    border-right: none;
+                border-bottom:1px solid #818181;}
+        
+                    .testi-one{
+                        border-right: none;
+                        border-bottom: 1px solid #818181;}
+           
+                        .testi-two{
+                            border-right: none;
+                            border-bottom:1px solid #818181 ;
+                                        }            
+                                        }
+        
