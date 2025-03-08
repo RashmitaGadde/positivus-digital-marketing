@@ -319,12 +319,12 @@ background-color: #191a23;
             background-color: #898989;
              border-radius: 20px;
              padding: 50px;
-             height: 500px;
+             height: 600px;
              }
              .contact-img{
                 position: absolute;
                 left: 380px;
-                bottom: -50px;
+                bottom: -20px;
                 width: 80%;
 
              }
@@ -350,7 +350,74 @@ background-color: #191a23;
                 border-radius: 10px;
                 padding: 10px;
                 width: 80%;
+                height: 100px;
+                margin-bottom: 30px;
              }
+
+             .btn5{
+                background-color: #000;
+                color: #fff;
+                border-radius: 10px;
+                padding: 15px;
+                width: 200px;
+            }
+
+            .footer{
+                    background-color: #191a23;
+                    border-radius: 20px 20px 0px 0px;
+                    padding: 50px;
+                    height: 400px;
+                    margin-top: 40px;
+                    }
+                   .nav-link{
+                    color: #ffffff;
+                   }
+                   .contact-htxt{
+                    background-color: #b9ff66;
+                    border-radius: 5px;  
+                padding: 3px;  }
+              
+
+                .foot-text{
+                    color: #ffffff;
+                }
+                .foot-text-mail{
+                    border-radius: 10px;
+                    padding: 10px;
+                    width: 40%;
+                 }
+                 .btn6{
+                    background-color: #b9ff66;
+                    color: #fff;
+                    border-radius: 10px;
+                    padding: 10px;
+                    width: 30%;
+                    color: #000;
+                                 }
+
+                                 
+                 .foot-right{
+                    margin-top: 50px;
+                    display: flex;
+                    gap: 20px;
+                 }
+                 .foot-left{
+                    margin-top: 30px;
+                 }
+
+                 .copyright{
+                    color: #fff;
+                    margin-top: 20px;
+                    border-top: 1px solid #fff;
+                 }
+                 .pricy-text{
+                    text-decoration: underline;
+                    
+                 }
+                 .policy-txt{
+                    margin-top: 1rem;
+                 }
+                 
         
                 
                 
@@ -361,13 +428,13 @@ background-color: #191a23;
 
 
 @media (min-width: 992px) and (max-width:1024px)  {
-    
+
     .right-image{
         width: 80%;
     }
     .contact-img{
-        display: none;
-    }
+left: 279px;
+bottom: -50px;    }
 }
 
 
@@ -403,7 +470,17 @@ flex-direction: column;
                                 .contact-img{
                                     display: none;
                                  }
+
+                                 .footer{
+                                    height: 700px;
+                                 }
+                                 
                             }
+@media only screen and (max-width: 1024px) {
+
+    .contact-img{
+        display: none;}
+    }
 
   
 
@@ -458,6 +535,28 @@ flex-direction: column;
                         .testi-two{
                             border-right: none;
                             border-bottom:1px solid #818181 ;
-                                        }            
+                                        }    
+                                        
+                    .footer{
+                        height: 750px;}
+
+                        .foot-text-mail{
+                            border-radius: 10px;
+                            padding: 10px;
+                            width: 60%;
+                         }
+                         .btn6{
+                            color: #fff;
+                            border-radius: 10px;
+                            padding: 10px;
+                            width: 60%;
+                            color: #000;
+                                         }
+         .foot-right{
+            display: inline;
+         }
+         
+        
+
                                         }
         
